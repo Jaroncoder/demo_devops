@@ -1,0 +1,9 @@
+trigger:
+- main
+
+pool:
+  name: sample   # your agent pool name
+
+steps:
+- script: echo "Hello from MyAgent"
+  displayName: Run a simple script
